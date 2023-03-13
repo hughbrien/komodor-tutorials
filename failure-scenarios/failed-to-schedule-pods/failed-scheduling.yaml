@@ -2,6 +2,15 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: komodor-failed-scheduling
+  annotations:
+    app.komodor.com/deploy.link.github: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
+    app.komodor.com/service.link.github: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
+    app.komodor.com/deploy.link.github-issue: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
+    app.komodor.com/service.link.github-issue: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
+    app.komodor.com/service.link.github-contributors: 'https://github.com/hughbrien/komodor-tutorials/graphs/contributors'
+    app.komodor.com/config-repo: 'https://github:com/hughbrien/komodor-tutorials/blob/master/failure-scenarios/failed-to-schedule-pods/failed-scheduling.yaml'
+    app.komodor.com/config-repo.ref: a6ea086ac9ea4cee29a55fd8964acac5b7e86fb1
+
   labels:
     app: komodor-failed-scheduling
 spec:

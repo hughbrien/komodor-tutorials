@@ -8,7 +8,6 @@ metadata:
     app.komodor.com/deploy.link.github-issue: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
     app.komodor.com/service.link.github-issue: 'https://github:com/hughbrien/komodor-tutorials/tree/master/failure-scenarios'
     app.komodor.com/service.link.github-contributors: 'https://github.com/hughbrien/komodor-tutorials/graphs/contributors'
-
     app.komodor.com/config-repo: 'https://github.com/hughbrien/komodor-tutorials/tree/master/failure-scenarios/failed-to-schedule-pods'
     app.komodor.com/config-repo.ref: a6ea086ac9ea4cee29a55fd8964acac5b7e86fb1
 
