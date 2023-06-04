@@ -2,7 +2,7 @@
 
 # Komodor Failure Scenarios
 
-This repository is your go-to repository to run scenarios on your clusters. It allows you simulate a day-to-day real life scenario besides edge cases. After running these scenario, you will be able to see how Komodor can help you to easily identify and remediate these scenarios.
+This repository is your go-to repository to run scenarios on your clusters. It allows you simulate a day-to-day real life scenario besides edge cases. After running these scenarios, you will be able to see how Komodor can help you to easily identify and remediate these scenarios.
 
 
 ## How to Use?
