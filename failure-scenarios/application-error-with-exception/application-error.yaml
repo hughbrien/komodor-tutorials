@@ -8,6 +8,7 @@ data:
     import os
     import sys
     import logging
+    import requests
     logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
     exit_code = int(os.getenv('EXIT_CODE')) if os.getenv('EXIT_CODE') else 0
@@ -44,6 +45,7 @@ metadata:
     app: komo-application-error
   labels:
     app: komo-application-error
+    project: komodemo
   name: komo-application-error
 spec:
   replicas: 1

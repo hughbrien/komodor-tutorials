@@ -4,6 +4,7 @@ metadata:
   name: komodor-failed-scheduling
   labels:
     app: komodor-failed-scheduling
+    project: komodemo
 spec:
   replicas: 1
   selector:

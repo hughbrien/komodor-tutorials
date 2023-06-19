@@ -4,6 +4,7 @@ metadata:
   name: komodor-create-container-config-error
   labels:
     app: komodor-create-error
+    project: komodemo
 spec:
   replicas: 3
   selector:

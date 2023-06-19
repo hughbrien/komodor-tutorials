@@ -4,6 +4,7 @@ metadata:
   name: komodor-imagepull-backoff
   labels:
     app: komodor-imagepull-backoff
+    project: komodemo
 spec:
   replicas: 3
   selector:

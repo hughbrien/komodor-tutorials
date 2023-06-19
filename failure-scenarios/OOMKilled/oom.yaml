@@ -4,6 +4,7 @@ metadata:
   name: komodor-oomkilled
   labels:
     app: komodor-oomkilled
+    project: komodemo
 spec:
   replicas: 1
   selector:

@@ -15,6 +15,7 @@ metadata:
     app: komodor-configmap-deploy
   labels:
     app: komodor-configmap-deploy
+    project: komodemo
   name: komodor-configmap-deploy
 spec:
   replicas: 1
