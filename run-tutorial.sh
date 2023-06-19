@@ -1,5 +1,5 @@
 ## Run this commands.
-## Create and Deploy a simple Pythong Application
+## Create and Deploy a simple Python Application
 kubectl create ns komodor-tutorial
 kubectl apply -n komodor-tutorial -f https://raw.githubusercontent.com/hughbrien/komodor-tutorials/master/failure-scenarios/application-error-with-exception/simple-application.yaml
 
